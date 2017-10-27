@@ -10,4 +10,4 @@ This folder contains starting files for the Property Listing project.
 5. Open `http://localhost:8080` in the browser and follow step by step
 
 ## Other files
-`02-Final` folder includes files that have been changed since the last week.
+`02-Final` folder includes files that have been changed since the last two weeks.
