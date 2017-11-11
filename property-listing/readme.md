@@ -2,6 +2,8 @@
 
 This folder contains starting files for the Property Listing project.
 
+demo video: https://youtu.be/nFZg_l0gAh0
+
 ## Getting started
 1. Open `01-Start` folder in VSCode or any other code editor
 2. Navigate to `01-Start` in the terminal (build into VSCode or any other you like:)
