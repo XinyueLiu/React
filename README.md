@@ -7,6 +7,7 @@ Dishare APP: http://www.dishareapp.com/ (It looks best on mobile)
 Property Listing Project: 
 
 An interactive map with property listings using React.js and Google Maps API.<br />
+![alt text](http://www-scf.usc.edu/~liuxinyu/property_list.jpg)
   
 - Functions:
   
