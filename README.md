@@ -4,9 +4,9 @@ Dishare APP: http://www.dishareapp.com/ (It looks best on mobile)
 
 - Currently, I am working on the web development of a platform named Dishare, which helps restaurants digitize their menus in a savory visual format. And the main technics involved in are REACT & Bulma for the front-end, Node.js, Express and MongoDB for the back-end.<br /><br />
 
-- Property Listing Project: An interactive map with property listings using React.js and Google Maps API.<br />
+Property Listing Project: An interactive map with property listings using React.js and Google Maps API.<br />
   
-  Functions:
+- Functions:
   
    1) use React with Google Maps API.
    2) filter data based on multiple criteria.
