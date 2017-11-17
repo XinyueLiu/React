@@ -21,6 +21,4 @@ An interactive map with property listings using React.js and Google Maps API.<br
    8) scroll to a related card in the list view <br /><br />
       
  
-Thanks for reviewing.
 
-XinYue Liu
