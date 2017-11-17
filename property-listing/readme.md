@@ -1,8 +1,6 @@
-# React - Property Listing
+# React Workshop - Property Listing
 
-This folder contains starting files for the Property Listing project.
-
-demo video: https://youtu.be/nFZg_l0gAh0
+This zip file contains starting files for the Property Listing project.
 
 ## Getting started
 1. Open `01-Start` folder in VSCode or any other code editor
@@ -12,4 +10,8 @@ demo video: https://youtu.be/nFZg_l0gAh0
 5. Open `http://localhost:8080` in the browser and follow step by step
 
 ## Other files
-`02-Final` folder includes files that have been changed since the last two weeks.
+`02-Final` folder includes files **at the end of each video**. Most of these folders include files that have been changed in the individual videos.
+
+Feel free to use them for comparison or replace them with your own files if you get stuck.
+
+**Happy coding!**
