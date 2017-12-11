@@ -1,3 +1,3 @@
-# Travel Website - Front end development
+# Travel website - Front end development
 
 ## ReactJS & Bootstrap
