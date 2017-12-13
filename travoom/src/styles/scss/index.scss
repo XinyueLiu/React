@@ -1,0 +1,10 @@
+// Overwrite Bulma variables
+@import 'variables';
+
+// Import Bulma, a CSS framework
+@import '../../../node_modules/bulma/bulma';
+
+// Styles for Travoom components
+@import 'NavBar';
+@import 'SearchBox';
+@import 'Swipe';
