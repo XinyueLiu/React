@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import image from '../../images/logo.png';
+
 class NavBar extends Component {
   render() {
     return (

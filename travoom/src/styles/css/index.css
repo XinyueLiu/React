@@ -6437,8 +6437,8 @@ label.panel-block {
   width: 110%; }
 
 .Swipe {
-  position: absolute;
-  top: 7%;
+  position: relative;
+  top: auto;
   width: 100%;
   height: 40%; }
 
@@ -6450,5 +6450,94 @@ label.panel-block {
 
 .swipe-title p {
   color: white; }
+
+.card {
+  float: left;
+  width: 20%;
+  height: 100%;
+  font: 10%;
+  margin-left: 10px; }
+
+.cards {
+  width: 100%;
+  height: 100%; }
+
+.card2 {
+  height: 100%;
+  float: left;
+  width: 25%;
+  border: 3px #fff solid;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s linear;
+  cursor: pointer;
+  position: relative;
+  background-color: #fff;
+  padding: 10px; }
+  .card2:hover {
+    background-color: #f3f3f3;
+    border-color: #f3f3f3; }
+  .card2 img {
+    max-width: calc(100%);
+    margin: 0 auto;
+    display: block; }
+  .card2 .index {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    line-height: 20px;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 0 10px; }
+  .card2 .price {
+    margin: 0;
+    padding: 10px 0;
+    font-weight: bold; }
+  .card2 .details {
+    position: relative; }
+  .card2.is-active {
+    border-color: #3273dc; }
+    .card2.is-active .index {
+      background-color: #3273dc; }
+
+.sub {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.journal {
+  width: 100%;
+  margin-left: 40px;
+  margin-right: 40px; }
+
+.journal-content {
+  height: 400px; }
+
+.recommend {
+  width: 100%;
+  height: 1000px;
+  margin-left: 40px;
+  margin-right: 40px; }
+
+.recommend-content {
+  width: 50%;
+  height: 100%; }
+
+.mapContainer {
+  float: left;
+  width: 50%;
+  height: 100%;
+  z-index: 2; }
+
+#map {
+  height: 1000px;
+  background-color: rgba(173, 216, 230, 0.4); }
+
+.listings {
+  width: 40%;
+  margin-left: 50%;
+  position: relative;
+  z-index: 3; }
 
 /*# sourceMappingURL=index.css.map */
