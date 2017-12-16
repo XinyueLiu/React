@@ -11,6 +11,8 @@ class GoogleMap extends Component {
     }
 
     componentDidUpdate() {
+        const {activeProperty} = this.props;
+        const {latitude, longitude, index} = activeProperty;
         const {markers} = this.state;
 
         markers.forEach(marker => {
@@ -19,7 +21,8 @@ class GoogleMap extends Component {
             markers[property.index].setVisible(true);
                 
         })
-
+        this.hideAll();
+        this.showIW(index);
     }
 
     showIW(index) {
@@ -43,7 +46,7 @@ class GoogleMap extends Component {
         const activePropertyIndex = activeProperty.index;
 
         properties.forEach(property => {
-            const {latitude, longitude, index, address} = property;
+            const {latitude, longitude, index, city} = property;
             this.marker = new window.google.maps.Marker({
                 position: {lat: latitude, lng: longitude},
                 map: this.map,
@@ -68,7 +71,7 @@ class GoogleMap extends Component {
             });
 
             const iw = new window.google.maps.InfoWindow({
-                content: `<h1>${address}</h1>`
+                content: `<h1>${city}</h1>`
             })
             this.marker.iw = iw;
 
@@ -91,9 +94,6 @@ class GoogleMap extends Component {
     }
 
     componentWillReceiveProps({isScriptLoadSucceed, nextProps}){
-        // const {activeProperty} = nextProps;
-        // const {latitude, longitude, index} = activeProperty;
-        console.log(nextProps);
         if (isScriptLoadSucceed) {
             if(this.state.flag) {
                 var markers = [];
@@ -109,8 +109,7 @@ class GoogleMap extends Component {
                     flag: false
                   })
             }
-            // this.hideAll();
-            // this.showIW(index);  
+              
         }
         else{
             alert("script not loaded")
