@@ -1,0 +1,12 @@
+// Overwrite Bulma variables
+@import 'variables';
+
+// Import Bulma, a CSS framework
+@import '../../../node_modules/bulma/bulma';
+
+@import 'App';
+@import 'Card';
+
+#root {
+    align-content: center;
+}
